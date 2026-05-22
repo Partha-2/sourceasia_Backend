@@ -7,6 +7,8 @@ A production-quality Go HTTP service implementing two parts:
 
 Built with Go standard library (`net/http`) — no frameworks.
 
+**Live API**: [https://sourceasia-backend.onrender.com](https://sourceasia-backend.onrender.com)
+
 ---
 
 ## 1. How to Run
@@ -17,10 +19,9 @@ Built with Go standard library (`net/http`) — no frameworks.
 # Build and run
 go build -o server ./cmd/server
 ./server
-
-# Or run directly
-go run ./cmd/server
 ```
+
+Or access the live deployment at `https://sourceasia-backend.onrender.com`.
 
 The server starts on **port 8080** by default.
 
